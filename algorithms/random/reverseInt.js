@@ -12,7 +12,7 @@ function reverseInt(num) {
     return parseInt(str.split("").reverse().join(""));
   } else {
     let str = String(num);
-    return -parseInt(str.split("").reverse().join(""));
+    return parseInt(str.split("").reverse().join("")) * Math.sign(num);
   }
 }
 
