@@ -11,6 +11,6 @@ function bubbleSort(arrayData) {
   return arr;
 }
 
-let arr = [1, 4, 6, 8, 1, 9];
+let arr = [8, 1, 2, 3, 4, 5, 6, 7];
 let result = bubbleSort(arr);
 console.log(result);
